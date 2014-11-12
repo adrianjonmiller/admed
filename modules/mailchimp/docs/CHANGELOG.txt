@@ -1,0 +1,41 @@
+MailChimp Sync PrestaShop module
+Author : Sébastien Jousse
+Email : s.jousse@naerys.fr
+Website : http://naerys.fr
+
+1.4.1 - 30/04/2013
+Fix a bug that prevent to display list of groups
+
+1.4 - 18/03/2013
+Rewrite Customer Update hook to prevent errors on folder's rights (no more override)
+Signup form's link is now automatic
+Fix duplicate configuration
+
+1.3 - 07/01/2012
+Rewrite specifically for Prestashop 1.5
+
+1.2.3 - 26/11/2012
+Fix revision number
+
+1.2.2 - 26/11/2012
+Fix copy of override Customer.php
+
+1.2.1 - 04/11/2012
+PS 1.5 compliance verified
+
+1.2 - 08/07/2012
+add feature to add user to defined group when subscribing
+
+1.1 - 20/02/2012
+Check if MCAPI already loaded to prevent conflicts with other MailChimp modules (must be added to others modules as well)
+Auto installation of override files (with backup of existing files)
+At uninstall, only delete hook created by this module (by checking hook's description)
+
+1.0 - 03/09/2011
+Synchronize MailChimp with PrestaShop via MailChimp API
+- customer account creation
+- customer account update (must add a hook by overriding Customer class)
+Synchronize PrestaShop with MailChimp via MailChimp WebHook (securized with a random token)
+- auto add WebHook via MailChimp API
+- subscribe to list via MailChimp sign up form
+- unsubscribe from list via unsubscribe link in email sent by MailChimp

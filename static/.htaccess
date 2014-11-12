@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^static\.admedonline\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.static\.admedonline\.com$
+RewriteRule ^/?$ "http\:\/\/admedonline\.com\/static" [R=301,L]
+

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright Prestashop -->
+<theme version="1.0" name="theme526" directory="theme526">
+  <author name="" email="" url=""/>
+  <descriptions>
+    <description iso="en"></description>
+    <description iso="es"></description>
+    <description iso="fr"></description>
+  </descriptions>
+  <variations>
+    <variation name="theme526" directory="theme526" from="1.5.0.17" to="1.5.2.0"/>
+  </variations>
+  <docs/>
+  <modules>
+    <module action="install" name="tmfooterlinks"/>
+    <module action="install" name="tmheaderlinks"/>
+    <module action="install" name="tmnivoslider"/>
+    <module action="install" name="tmpics"/>
+    <module action="install" name="tmtextblock"/>
+    <module action="install" name="tmtextblock1"/>
+    <module action="install" name="tmnewsletter"/>
+    <module action="enable" name="carriercompare"/>
+    <module action="enable" name="blockcategories"/>
+    <module action="enable" name="blockcurrencies"/>
+    <module action="enable" name="blockcustomerprivacy"/>
+    <module action="enable" name="blocklanguages"/>
+    <module action="enable" name="blockmyaccountfooter"/>
+    <module action="enable" name="blocksearch"/>
+    <module action="enable" name="blocksharefb"/>
+    <module action="enable" name="blocksocial"/>
+    <module action="enable" name="blockspecials"/>
+    <module action="enable" name="blockuserinfo"/>
+    <module action="enable" name="feeder"/>
+    <module action="enable" name="gsitemap"/>
+    <module action="enable" name="homefeatured"/>
+    <module action="enable" name="statsdata"/>
+    <module action="enable" name="productcomments"/>
+    <module action="enable" name="sendtoafriend"/>
+    <module action="enable" name="blockcart"/>
+    <module action="enable" name="productscategory"/>
+    <module action="enable" name="themeinstallator"/>
+    <module action="disable" name="blockadvertising"/>
+    <module action="disable" name="blockbestsellers"/>
+    <module action="disable" name="blockcms"/>
+    <module action="disable" name="blockcontact"/>
+    <module action="disable" name="blockcontactinfos"/>
+    <module action="disable" name="blocklayered"/>
+    <module action="disable" name="blocklink"/>
+    <module action="disable" name="blockmanufacturer"/>
+    <module action="disable" name="blockmyaccount"/>
+    <module action="disable" name="blocknewproducts"/>
+    <module action="disable" name="blocknewsletter"/>
+    <module action="disable" name="blockpaymentlogo"/>
+    <module action="disable" name="blockpermanentlinks"/>
+    <module action="disable" name="blockreinsurance"/>
+    <module action="disable" name="blockrss"/>
+    <module action="disable" name="blockstore"/>
+    <module action="disable" name="blocksupplier"/>
+    <module action="disable" name="blocktags"/>
+    <module action="disable" name="blocktopmenu"/>
+    <module action="disable" name="blockviewed"/>
+    <module action="disable" name="blockwishlist"/>
+    <module action="disable" name="crossselling"/>
+    <module action="disable" name="dateofdelivery"/>
+    <module action="disable" name="editorial"/>
+    <module action="disable" name="favoriteproducts"/>
+    <module action="disable" name="followup"/>
+    <module action="disable" name="homeslider"/>
+    <module action="disable" name="importerosc"/>
+    <module action="disable" name="loyalty"/>
+    <module action="disable" name="mailalerts"/>
+    <module action="disable" name="newsletter"/>
+    <module action="disable" name="producttooltip"/>
+    <module action="disable" name="referralprogram"/>
+    <module action="disable" name="shopimporter"/>
+    <module action="disable" name="trackingfront"/>
+    <module action="disable" name="vatnumber"/>
+    <module action="disable" name="watermark"/>
+    <hooks>
+      <hook module="tmfooterlinks" hook="displayFooter" position="3"/>
+      <hook module="tmheaderlinks" hook="displayTop" position="4"/>
+      <hook module="tmnivoslider" hook="displayHome" position="1"/>
+      <hook module="tmpics" hook="displayLeftColumn" position="2"/>
+      <hook module="tmtextblock" hook="displayFooter" position="2"/>
+      <hook module="tmtextblock1" hook="displayFooter" position="4"/>
+      <hook module="tmnewsletter" hook="displayFooter" position="5"/>
+      <hook module="carriercompare" hook="displayHeader" position="1"/>
+      <hook module="carriercompare" hook="displayShoppingCartFooter" position="1"/>
+      <hook module="blockcategories" hook="actionAdminMetaControllerUpdate_optionsBefore" position="1"/>
+      <hook module="blockcategories" hook="displayLeftColumn" position="1"/>
+      <hook module="blockcategories" hook="actionCategoryAdd" position="1"/>
+      <hook module="blockcategories" hook="actionCategoryDelete" position="1"/>
+      <hook module="blockcategories" hook="actionAdminLanguagesControllerStatusBefore" position="1"/>
+      <hook module="blockcategories" hook="displayRightColumn" position="1"/>
+      <hook module="blockcategories" hook="displayHeader" position="8"/>
+      <hook module="blockcategories" hook="actionCategoryUpdate" position="1"/>
+      <hook module="blockcurrencies" hook="displayHeader" position="11"/>
+      <hook module="blockcurrencies" hook="displayTop" position="2"/>
+      <hook module="blockcustomerprivacy" hook="displayHeader" position="9"/>
+      <hook module="blockcustomerprivacy" hook="actionBeforeSubmitAccount" position="1"/>
+      <hook module="blockcustomerprivacy" hook="displayCustomerAccountForm" position="1"/>
+      <hook module="blocklanguages" hook="displayHeader" position="15"/>
+      <hook module="blocklanguages" hook="displayTop" position="1"/>
+      <hook module="blockmyaccountfooter" hook="displayHeader" position="13"/>
+      <hook module="blocksearch" hook="displayTop" position="3"/>
+      <hook module="blocksearch" hook="displayHeader" position="20"/>
+      <hook module="blocksearch" hook="displayMobileTopSiteMap" position="1"/>
+      <hook module="blocksharefb" hook="displayLeftColumnProduct" position="1"/>
+      <hook module="blocksocial" hook="displayFooter" position="6"/>
+      <hook module="blocksocial" hook="displayHeader" position="5"/>
+      <hook module="blockspecials" hook="displayRightColumn" position="2"/>
+      <hook module="blockspecials" hook="displayHeader" position="10"/>
+      <hook module="blockspecials" hook="displayLeftColumn" position="3"/>
+      <hook module="blockuserinfo" hook="displayHeader" position="14"/>
+      <hook module="blockuserinfo" hook="displayTop" position="5"/>
+      <hook module="feeder" hook="displayHeader" position="25"/>
+      <hook module="homefeatured" hook="displayHeader" position="22"/>
+      <hook module="homefeatured" hook="displayHome" position="2"/>
+      <hook module="statsdata" hook="actionAuthentication" position="1"/>
+      <hook module="statsdata" hook="actionCustomerAccountAdd" position="1"/>
+      <hook module="statsdata" hook="displayFooter" position="8"/>
+      <hook module="productcomments" hook="actionProductOutOfStock" position="1"/>
+      <hook module="productcomments" hook="displayHeader" position="28"/>
+      <hook module="productcomments" hook="displayProductTabContent" position="1"/>
+      <hook module="productcomments" hook="displayProductComparison" position="1"/>
+      <hook module="productcomments" hook="displayProductTab" position="1"/>
+      <hook module="sendtoafriend" hook="displayHeader" position="29"/>
+      <hook module="sendtoafriend" hook="displayLeftColumnProduct" position="2"/>
+      <hook module="blockcart" hook="displayHeader" position="30"/>
+      <hook module="blockcart" hook="displayTop" position="9"/>
+      <hook module="productscategory" hook="displayHeader" position="31"/>
+      <hook module="productscategory" hook="displayFooterProduct" position="1"/>
+    </hooks>
+  </modules>
+  <images>
+    <image name="small_default" width="66" height="66" products="true" categories="true" manufacturers="true" suppliers="true" scenes="false"/>
+    <image name="medium_default" width="80" height="80" products="true" categories="true" manufacturers="true" suppliers="true" scenes="false"/>
+    <image name="large_default" width="304" height="304" products="true" categories="true" manufacturers="true" suppliers="true" scenes="false"/>
+    <image name="thickbox_default" width="600" height="600" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false"/>
+    <image name="category_default" width="500" height="150" products="false" categories="true" manufacturers="false" suppliers="false" scenes="false"/>
+    <image name="home_default" width="180" height="180" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false"/>
+    <image name="scene_default" width="520" height="189" products="false" categories="false" manufacturers="false" suppliers="false" scenes="true"/>
+    <image name="m_scene_default" width="161" height="58" products="false" categories="false" manufacturers="false" suppliers="false" scenes="true"/>
+    <image name="home_featured" width="160" height="160" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false"/>
+  </images>
+</theme>

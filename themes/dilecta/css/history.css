@@ -1,0 +1,80 @@
+#history #center_column .title_block {
+	margin:20px 0;
+   position:relative;
+   padding:20px;
+   border:1px solid #e7e7e7;
+   background:#fff;
+   -moz-box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.05);-webkit-box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.05);box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.05);
+   border-radius:5px;
+   -moz-border-radius:5px;
+   -webkit-border-radius:5px;
+}
+#history #center_column .title_block  input {
+	position: relative;
+   top: -8px;
+	float:right;
+}
+
+.info-order {
+	margin-bottom:20px;
+}
+.info-order p {padding-bottom:10px}
+.info-order p .icon {
+	position:relative;
+	top:2px;
+	left:0
+}
+
+#order-list {
+	margin-bottom:20px;
+	width:100%;
+   position:relative;
+   padding:20px;
+   background:#fff;
+   -moz-box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.05);-webkit-box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.05);box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.05);
+   border-radius:5px;
+   -moz-border-radius:5px;
+   -webkit-border-radius:5px;
+}
+#order-list  th {
+	padding:18px 30px;
+	font-size:14px;
+	font-weight:700;
+	border-bottom:1px solid #e7e7e7;
+	border-right:1px solid #e7e7e7;
+}
+#order-list tr.alternate_item {background-color: #fafafa}
+#order-list  td {
+	padding:20px;
+	border-right:1px solid #e7e7e7;
+	border-bottom:1px solid #e7e7e7;
+	vertical-align:top
+}
+
+.adresses_bloc {margin-bottom:20px}
+.adresses_bloc  .item {margin-right:60px}
+
+#sendOrderMessage {margin-bottom:20px}
+#sendOrderMessage p {padding-bottom:10px}
+
+.order_qte_input { margin-right:10px; }
+select[name=id_product] { margin-left:10px; }
+
+#sendOrderMessage { 
+	margin:0 0 20px 0;
+   position:relative;
+   padding:20px;
+   border:1px solid #e7e7e7;
+   background:#fff;
+   -moz-box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.05);-webkit-box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.05);box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.05);
+   border-radius:5px;
+   -moz-border-radius:5px;
+   -webkit-border-radius:5px;
+}
+
+#sendOrderMessage h3 {
+	border-radius:5px 5px 0px 0px;-moz-border-radius:5px 5px 0px 0px;-webkit-border-radius:5px 5px 0px 0px;
+   background:#fafafa;border-bottom:1px solid #e7e7e7;font-size:14px;font-weight:700;padding:18px 30px;
+   position:relative;
+   margin:-20px -20px 20px -20px;
+}

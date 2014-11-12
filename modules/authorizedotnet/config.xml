@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>authorizedotnet</name>
+            <displayName><![CDATA[Authorize.net (AIM / DPM)]]></displayName>
+            <version><![CDATA[1.5.2]]></version>
+            <description><![CDATA[Receive and Refund payments using Authorize.net (AIM or DPM)]]></description>
+            <author><![CDATA[Presto-Changeo]]></author>
+            <tab><![CDATA[payments_gateways]]></tab>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>

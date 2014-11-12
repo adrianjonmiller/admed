@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<links>
+	<link>
+		<url>product.php?id_product=12</url>
+		<field1_1>Free Shipping</field1_1>
+		<field2_1>on orders over $ 99. This offer is valid on all our  store items.</field2_1>
+		<field1_4>Welcome!</field1_4>
+		<field2_4>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</field2_4>
+		<field1_5>Welcome!</field1_5>
+		<field2_5>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</field2_5>
+	</link>
+</links>

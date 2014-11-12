@@ -1,0 +1,19 @@
+.hint_wrp {
+	position: relative;
+	top: -3px;
+}
+
+.hint_img {
+	vertical-align: middle;
+}
+
+.hint_wrp .hint {
+	display: none;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 280px;
+	z-index: 100;
+}
+
+.mColorPickerInput {margin-top:6px;} .mColorPickerTrigger img { vertical-align:middle}

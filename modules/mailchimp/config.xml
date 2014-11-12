@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>mailchimp</name>
+            <displayName><![CDATA[Mailchimp Sync]]></displayName>
+            <version><![CDATA[1.4.1]]></version>
+            <description><![CDATA[Synchronize automatically your list of subscribers in Prestashop with your Mailchimp account, and the reverse too.]]></description>
+            <author><![CDATA[S&eacute;bastien Jousse]]></author>
+            <tab><![CDATA[advertising_marketing]]></tab>
+	<confirmUninstall>Are you sure you want to uninstall this module ? All your settings will be lost.</confirmUninstall>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>
